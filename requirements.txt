@@ -4,8 +4,6 @@ accessible-pygments==0.0.5
     # via pydata-sphinx-theme
 alabaster==0.7.16
     # via sphinx
-appnope==0.1.4 ; sys_platform == 'darwin'
-    # via ipykernel
 asttokens==3.0.1
     # via stack-data
 attrs==25.4.0
@@ -21,8 +19,6 @@ beautifulsoup4==4.14.2
     # via pydata-sphinx-theme
 certifi==2025.11.12
     # via requests
-cffi==2.1.1 ; implementation_name == 'pypy'
-    # via pyzmq
 charset-normalizer==3.4.4
     # via requests
 click==8.3.1
@@ -31,11 +27,6 @@ click==8.3.1
     #   jupyter-cache
     #   sphinx-external-toc
     #   teachbooks
-colorama==0.4.6 ; sys_platform == 'win32'
-    # via
-    #   click
-    #   ipython
-    #   sphinx
 comm==0.2.3
     # via ipykernel
 contourpy==1.3.3
@@ -60,7 +51,7 @@ fastjsonschema==2.21.2
     # via nbformat
 fonttools==4.60.1
     # via matplotlib
-greenlet==3.5.6 ; platform_machine == 'AMD64' or platform_machine == 'WIN32' or platform_machine == 'aarch64' or platform_machine == 'amd64' or platform_machine == 'ppc64le' or platform_machine == 'win32' or platform_machine == 'x86_64'
+greenlet==3.5.6
     # via sqlalchemy
 idna==3.11
     # via requests
@@ -162,7 +153,7 @@ packaging==25.0
     #   sphinx-jupyterbook-latex
 parso==0.8.5
     # via jedi
-pexpect==4.9.0 ; sys_platform != 'emscripten' and sys_platform != 'win32'
+pexpect==4.9.0
     # via ipython
 pillow==12.0.0
     # via matplotlib
@@ -174,7 +165,7 @@ psutil==7.1.3
     # via
     #   ipykernel
     #   teachbooks
-ptyprocess==0.7.0 ; sys_platform != 'emscripten' and sys_platform != 'win32'
+ptyprocess==0.7.0
     # via pexpect
 pure-eval==0.2.3
     # via stack-data
@@ -187,8 +178,6 @@ pybtex-apa-style==1.3
     # via sphinx-apa-references
 pybtex-docutils==1.0.3
     # via sphinxcontrib-bibtex
-pycparser==3.12 ; implementation_name == 'pypy'
-    # via cffi
 pydata-sphinx-theme==0.15.4
     # via sphinx-book-theme
 pygments==2.19.2
@@ -226,8 +215,6 @@ rpds-py==0.29.0
     # via
     #   jsonschema
     #   referencing
-setuptools==80.9.0
-    # via sphinx-togglebutton
 six==1.17.0
     # via
     #   python-dateutil
